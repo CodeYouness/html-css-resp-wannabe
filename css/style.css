@@ -129,12 +129,14 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media screen and (max-width: 768px) {
+/* tablet responsive */
+@media screen and (max-width: 1160px) {
     .container {
         width: 100%;
     }
 }
 
+/* smartphone responsive */
 @media screen and (max-width: 480px) {
 
     .row {
@@ -164,8 +166,6 @@ img {
     .steps {
         margin: 3rem 0 0;
     }
-
-    /* body {
-        background-color: #222222;
-    } */
 }
+
+/* responsiveness between 768px & 1160px */
