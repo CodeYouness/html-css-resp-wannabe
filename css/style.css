@@ -130,6 +130,7 @@ img {
  ************************************************/
 
 /* tablet responsive */
+/* responsiveness from 481px to 1160px */
 @media screen and (max-width: 1160px) {
     .container {
         width: 100%;
@@ -167,5 +168,3 @@ img {
         margin: 3rem 0 0;
     }
 }
-
-/* responsiveness between 768px & 1160px */
