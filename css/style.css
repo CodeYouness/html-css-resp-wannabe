@@ -155,4 +155,17 @@ img {
         padding-top: 3rem;
     }
 
+    .why-us {
+        margin-bottom: 0;
+        padding: 3rem 0;
+        background-color: #222222;
+    }
+
+    .steps {
+        margin: 3rem 0 0;
+    }
+
+    /* body {
+        background-color: #222222;
+    } */
 }
