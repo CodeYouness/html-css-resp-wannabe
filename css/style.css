@@ -130,8 +130,7 @@ img {
  ************************************************/
 
 /* tablet responsive */
-/* responsiveness from 481px to 1160px */
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 768px) {
     .container {
         width: 100%;
     }
@@ -166,5 +165,13 @@ img {
 
     .steps {
         margin: 3rem 0 0;
+    }
+}
+
+/* responsiveness from 769px to 1160px */
+
+@media screen and (min-width: 769px) and (max-width: 1160px) {
+    .container {
+        width: 100%;
     }
 }
